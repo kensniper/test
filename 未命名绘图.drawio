@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-23T14:11:25.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="zSXBIcSZqssIfww59c-i" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-23T14:25:53.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="cNmh8GHqgyDeOJUGpe7I" version="14.4.9" type="github">
   <diagram id="H7uiUYj5wqa4Uc5Upl8W" name="第 1 页">
     <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,6 +57,129 @@
         </mxCell>
         <mxCell id="PB6FAoWGl753bsoDeO_B-14" value="次数复位&lt;br&gt;给予第11卡" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-16" value="castSkill" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-18" target="PB6FAoWGl753bsoDeO_B-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-18" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="860" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-23" target="PB6FAoWGl753bsoDeO_B-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-23" target="PB6FAoWGl753bsoDeO_B-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-23" value="技能buff&lt;br&gt;检测" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-24" target="PB6FAoWGl753bsoDeO_B-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-24" value="buff" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-25" target="PB6FAoWGl753bsoDeO_B-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-25" target="PB6FAoWGl753bsoDeO_B-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-25" value="loopType" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-27" value="实时游戏心跳&lt;br&gt;TimeLoop" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-29" value="回合制&lt;br&gt;RoundLoop&lt;br&gt;[round, skillId]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-31" value="castedSkill" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1361" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-33" target="PB6FAoWGl753bsoDeO_B-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-33" value="Round类buff循环" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-35" target="PB6FAoWGl753bsoDeO_B-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-35" value="for 1 to n" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-40" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-37" target="PB6FAoWGl753bsoDeO_B-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-42" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PB6FAoWGl753bsoDeO_B-41">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-37" value="技能ID匹配" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="487" y="1250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-39" target="PB6FAoWGl753bsoDeO_B-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-47" value="buff效果&lt;br&gt;例如：100%攻强" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PB6FAoWGl753bsoDeO_B-46">
+          <mxGeometry x="0.1602" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-39" value="附加buff&lt;br&gt;重算属性" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-45" value="伤害计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1201" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-49" target="PB6FAoWGl753bsoDeO_B-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-49" value="去除buff&lt;br&gt;重算属性" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1498" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-51" value="攻击结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1602.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-54" value="伤害计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1201" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-55" target="PB6FAoWGl753bsoDeO_B-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="1643" />
+              <mxPoint x="515" y="1643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-55" value="castedSkill" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-56" target="PB6FAoWGl753bsoDeO_B-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-56" value="伤害计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
