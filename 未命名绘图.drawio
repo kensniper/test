@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T05:44:43.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="OzD_iWNKUUcK2wvBxshA" version="14.4.9" type="github"><diagram id="H7uiUYj5wqa4Uc5Upl8W" name="第 1 页">3ZjRkpowFIafhst2QkDE21rbXrR1p860s5dZOZJUIDQGwX36Bgkg1ZXsTJHWGS/CnxNOzp8PTLCceVx8FCSlX3gAkYVRUFjOewtj28XYKn8oOFTK1LMrIRQs0EGtsGLPoEWk1YwFsOsESs4jydKuuOZJAmvZ0YgQPO+GbXjUzZqSEM6E1ZpE5+oPFkhaqT6etvonYCGtM9verOqJSR2sK9lREvD8RHIWljMXnMuqFRdziErzal+qcR9e6G0mJiCRJgO+77n/69tktVnt3MflMn+kX7dvnOouexJlumA9WXmoHYBAGaIvuZCUhzwh0aJV3wmeJQGUaZC6amM+c54q0VbiT5DyoFeXZJIrico40r1VzjLRi7VpacczsYYrBdWMEBGCvBKHmxVQ6AKPQYqDGicgIpLtu/MgmqGwiWttVg3t9Ctct/tdbz0tDcopk7BKybH0XD1pl/zbg5BQXHfwvOJ6gK8x1c+pXWObt9Q3Gj0h3kMDmTS5NzSxIZrumGjiftd7YOySOwCaDXKjoTm9NzRdQzS9MdF0Dd6alMdP2a7/jfnXIcWoC6kzO4fUv8CoPxSjs3tj1DNk1B+TUa/fdSkYScKjvbeG1Jn2Q+rdElLbYCf0f1HqG1Jqo8srdRtM/X7b1XElLZsUCqLcVC6lIJhKD6JVH2oJ99O8YQXUB7xB6Hb9frov7hOGw/v+jlfIlO9xD1jIHHCpSIVnXt6vg3ijP7TiP8c4dsfeC9sGJ4ba6oRLg7+9J7LehkfnlpmMWFKbGRCxXapRTJbFo7doMoTDkz82cr7ZPs5GrzdYXbaff459Jx/RnMVv</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-23T14:11:25.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="zSXBIcSZqssIfww59c-i" version="14.4.9" type="github">
+  <diagram id="H7uiUYj5wqa4Uc5Upl8W" name="第 1 页">
+    <mxGraphModel dx="1422" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vvo8qR5SfSs4YOOwYhNk-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Vvo8qR5SfSs4YOOwYhNk-1" target="Vvo8qR5SfSs4YOOwYhNk-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvo8qR5SfSs4YOOwYhNk-1" value="10连抽" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vvo8qR5SfSs4YOOwYhNk-2" target="PB6FAoWGl753bsoDeO_B-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vvo8qR5SfSs4YOOwYhNk-2" value="循环" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-1" target="PB6FAoWGl753bsoDeO_B-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-1" target="PB6FAoWGl753bsoDeO_B-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-1" value="是否SSR" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-3" target="PB6FAoWGl753bsoDeO_B-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-3" value="SSR标记" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="180" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-5" target="PB6FAoWGl753bsoDeO_B-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-5" target="PB6FAoWGl753bsoDeO_B-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-5" value="是否第50次" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-7" target="PB6FAoWGl753bsoDeO_B-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-7" value="命中11抽" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="340" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-9" value="循环尾" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PB6FAoWGl753bsoDeO_B-11" target="PB6FAoWGl753bsoDeO_B-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-11" value="两条件符合" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PB6FAoWGl753bsoDeO_B-14" value="次数复位&lt;br&gt;给予第11卡" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
